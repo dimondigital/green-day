@@ -1,0 +1,848 @@
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  overflow: auto;
+  height: 100%;
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+  min-width: 800px;
+  font-size: 0.95em;
+
+  font-family: 'catorze27_style_1semibold';
+}
+
+body.modal-open {
+  overflow: hidden;
+  margin: 0;
+}
+
+body, ul, section, p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  display: inline-block;
+  width: 100%;
+  font-family: 'catorze27_style_1semibold';
+  font-size: 40px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+header .logo {
+  display: inline-block;
+  position: absolute;
+  height: 42px;
+  min-width: 160px;
+  background: url('https://image.ibb.co/kSkEKb/header_logo.png') 0 0 no-repeat;
+}
+
+header .button {
+  display: inline-block;
+  text-align: center;
+}
+
+header .button a {
+  min-width: 320px;
+  padding: 15px 30px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: -40px;
+  z-index: 1;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 40px;
+  border: 4px solid white;
+
+  background: rgba(55, 255, 33, 1);
+  background: -moz-linear-gradient(top, rgba(55, 255, 33, 1) 0%, rgba(202, 249, 93, 1) 100%);
+  background: -webkit-linear-gradient(top, rgba(55, 255, 33, 1) 0%, rgba(202, 249, 93, 1) 100%);
+  background: -o-linear-gradient(top, rgba(55, 255, 33, 1) 0%, rgba(202, 249, 93, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(55, 255, 33, 1) 0%, rgba(202, 249, 93, 1) 100%);
+  background: linear-gradient(to bottom, rgba(55, 255, 33, 1) 0%, rgba(202, 249, 93, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#37ff21', endColorstr='#caf95d', GradientType=0);
+}
+
+header .tel {
+  display: inline-block;
+  min-width: 320px;
+  font-family: 'catorze27_style_1semibold';
+  font-size: 35px;
+  color: #88bf27;
+  background-color: white;
+  padding: 16px;
+  padding-left: 30px;
+  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.white {
+  color: white;
+}
+
+.next {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Georgia';
+  font-size: 40px;
+  font-style: italic;
+  width: 100%;
+}
+
+.arrow {
+  bottom: 50px;
+  margin-bottom: -20px;
+  z-index: 1;
+  display: inline-block;
+  width: 60px;
+  height: 62px;
+}
+
+.arrow-green {
+  background: url('../assets/images/arrow-green.png') 0 0 no-repeat;
+}
+
+.arrow-brown {
+  background: url('../assets/images/arrow-brown.png') 0 0 no-repeat;
+}
+
+/* MAIN */
+#section-main {
+  background: url('https://image.ibb.co/c0jwXw/gallery_temp_005.jpg') repeat;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+#section-main .window {
+  display: inline-block;
+  background-size: contain;
+}
+
+#section-main .content {
+  padding-top: 0;
+  display: inline-block;
+}
+
+#section-main .content h1 p {
+  font-size: 60px;
+  color: #0d291e;
+}
+
+#section-main .content .save {
+  overflow: hidden;
+  border: 5px solid white;
+  padding-top: 40px;
+  max-width: 550px;
+  letter-spacing: 0;
+  background-size: contain;
+  font-style: italic;
+  line-height: 55px;
+  font-weight: bold;
+  background: url('https://image.ibb.co/i453Cw/main_winter_2.gif') 0 center repeat;
+  padding: 15px !important;
+  padding-bottom: 30px;
+}
+
+#section-main .content .save p {
+  display: inline-block;
+  color: #0b93d5;
+  font-size: 40px;
+}
+
+.darkreds {
+  color: orangered;
+  font-family: 'catorze27_style_1semibold';
+  font-weight: bold;
+  font-size: 50px;
+  font-style: normal;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+#section-main .special {
+  color: #c37332;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 40px !important;
+}
+
+#section-main .next p {
+  padding: 20px !important;
+  color: white;
+  background-color: #9fbd49;
+}
+
+/* GALLERY */
+#section-gallery {
+  background-size: cover;
+  background-color: black;
+  padding: 100px 0;
+}
+
+.fp-tableCell {
+  width: 33.3%;
+}
+
+.fp-slidesContainer {
+  width: 300%;
+  transition: all 700ms ease;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.slide {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.slide img {
+  height: 100%;
+  width: 10%;
+}
+
+/* VIDEO */
+#section-video {
+  background-color: black;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+/* ENERGY-SAFETY */
+#section-energy-safety {
+  background: url('../assets/images/energy-save-bg.png') center center fixed no-repeat;
+  background-size: cover;
+}
+
+#section-energy-safety h1 {
+  display: inline-block;
+  color: white;
+}
+
+#section-energy-safety .images {
+  display: inline-block;
+}
+
+#section-energy-safety .winter {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+#section-energy-safety .summer {
+  display: inline-block;
+}
+
+#section-energy-safety .content {
+  display: inline-block;
+  width: 69%;
+  vertical-align: top;
+  color: #9fbd49;
+  font-family: 'Georgia';
+  font-size: 4vh;
+  line-height: 1.5;
+}
+
+#section-energy-safety .content p {
+  text-indent: 50px;
+  font-size: 25px;
+}
+
+#section-energy-safety .next p {
+  padding: 20px !important;
+  color: white;
+  background-color: #97431d;
+  line-height: 1;
+}
+
+/* FACT */
+#section-fact {
+  background: url('../assets/images/fact-bg.png') center center fixed no-repeat;
+  background-size: cover;
+}
+
+#section-fact h1 {
+  display: inline-block;
+  width: 100%;
+  color: #32160d;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#section-fact .content {
+  display: inline-block;
+  width: 69%;
+  vertical-align: top;
+  color: #32160d;
+  font-family: 'Georgia';
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+#section-fact .content p {
+  text-indent: 50px;
+}
+
+#section-fact .next p {
+  padding: 20px !important;
+  color: white;
+  background-color: #9fbd49;
+  line-height: 1;
+}
+
+#section-fact .images {
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+}
+
+#section-fact .info {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background: url('../assets/images/fact-info.png') 0 0 no-repeat;
+}
+
+/* WOOD VS PVC */
+#section-wood-vs-pvc {
+  background: url('https://image.ibb.co/gchTeb/wood_vs_pvc_bg.jpg') center center fixed no-repeat;
+  background-size: cover;
+  text-align: center;
+  z-index: -1;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+#section-wood-vs-pvc .pvc {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 300px;
+  height: 327px;
+  z-index: -1;
+}
+
+#section-wood-vs-pvc .wood {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 300px;
+  height: 330px;
+  z-index: -1;
+}
+
+.info-block {
+  display: inline-block;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.info-block .content {
+  display: inline-block;
+  text-align: left;
+  padding: 30px;
+}
+
+.info-block h1 {
+  margin-left: 20px;
+  padding-right: 20px;
+  line-height: 1;
+}
+
+.info-block p {
+  display: inline-block;
+  font-family: 'Georgia';
+  font-size: 20px;
+  margin-left: 20px !important;
+}
+
+.info-block .image {
+  display: inline-block;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.info-block .img-1 {
+  width: 150px;
+  height: 150px;
+  background: url('https://image.ibb.co/cSyC5G/wood_vs_pvc_info_1.png') center center no-repeat;
+}
+
+.info-block .img-2 {
+  width: 150px;
+  height: 150px;
+  background: url('https://image.ibb.co/nLL3Cw/wood_vs_pvc_info_2.png') center center no-repeat;
+}
+
+.info-block .img-3 {
+  width: 150px;
+  height: 150px;
+  background: url('https://image.ibb.co/cCJZKb/wood_vs_pvc_info_3.png') center center no-repeat;
+}
+
+.info-grey {
+  color: #768588;
+}
+
+.info-green {
+  color: #334f00;
+}
+
+.info-blue {
+  color: #004180;
+}
+
+/* WOOD VS PVC 2 */
+#section-wood-vs-pvc-2 {
+  background: url('https://image.ibb.co/fuGAsw/wood_vs_pvc_2_bg.jpg') center center fixed no-repeat;
+  background-size: cover;
+  text-align: center;
+  z-index: -1;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+#section-wood-vs-pvc-2 .pvc {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  width: 300px;
+  height: 351px;
+  z-index: -1;
+}
+
+#section-wood-vs-pvc-2 .wood {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 300px;
+  height: 392px;
+  z-index: -1;
+}
+
+#section-wood-vs-pvc-2 .image {
+  float: right;
+}
+
+#section-wood-vs-pvc-2 .info-block h1 {
+  text-align: right;
+}
+
+#section-wood-vs-pvc-2 .info-block p {
+  text-align: right;
+}
+
+.info-block .img-4 {
+  width: 150px;
+  height: 150px;
+  background: url('https://image.ibb.co/gyc5QG/wood_vs_pvc_info_4.png') center center no-repeat;
+}
+
+.info-block .img-5 {
+  width: 150px;
+  height: 150px;
+  background: url('https://image.ibb.co/mjt1zb/wood_vs_pvc_info_5.png') center center no-repeat;
+}
+
+.info-block .img-6 {
+  width: 150px;
+  height: 150px;
+  background: url('https://image.ibb.co/kiwbXw/wood_vs_pvc_info_6.png') center center no-repeat;
+}
+
+.info-newgreen {
+  color: #578c52;
+}
+
+.info-black {
+  color: black;
+}
+
+.info-brown {
+  color: #aa9281;
+}
+
+
+/* REVIEWS */
+#section-reviews {
+  background: url('../assets/images/reviews-bg.png') center center fixed no-repeat;
+  background-size: cover;
+}
+
+/* ABOUT US */
+#section-about-us {
+  background: url('https://image.ibb.co/jXyC5G/about_us_bg.jpg') center center fixed no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.about-block {
+  width: 100%;
+  display: inline-block;
+}
+
+.about-block .h {
+  display: inline-block;
+  width: 50%;
+  background: url('https://image.ibb.co/g0Y1zb/about_us_2.jpg') 0 center fixed no-repeat;
+}
+
+.about-block .h-2 {
+  display: inline-block;
+  width: 50%;
+  background: url('https://image.ibb.co/nwLEKb/production.jpg') 0 100% fixed no-repeat;
+}
+
+.about-block .h-3 {
+  display: inline-block;
+  width: 50%;
+  background: url('https://image.ibb.co/f0NuKb/about_us_3.jpg') 0 0 fixed no-repeat;
+}
+
+.header-2 {
+  display: inline-block;
+  width: 100%;
+  background-size: contain;
+  background: url('https://image.ibb.co/g0Y1zb/about_us_2.jpg') 0 0 fixed no-repeat;
+
+}
+
+#section-about-us h1 {
+  display: inline-block;
+  color: white;
+  line-height: 40px;
+  padding: 10px;
+  width: 50%;
+  background-color: rgba(0, 51, 50, 0.7);
+}
+
+#section-about-us p {
+  width: 50%;
+  display: inline-block;
+  background-color: rgba(0, 51, 50, 0.7);
+  color: greenyellow;
+  font-family: 'Georgia';
+  font-size: 20px;
+  padding: 20px !important;
+  line-height: 1.1;
+  text-align: left;
+}
+
+.dec {
+  color: #ffe0a9;
+}
+
+.contacts {
+  font-family: 'catorze27_style_1semibold' !important;
+  padding-top: 0;
+}
+
+/* UPDATE FULLPAGE NAVBAR */
+#fp-nav ul li, .fp-slidesNav ul li {
+  display: block;
+  width: 14px;
+  height: 40px;
+  margin: 7px;
+  position: relative;
+}
+
+#fp-nav ul li a, .fp-slidesNav ul li a {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+  border: 0;
+  background: #6cc209;
+  left: 50%;
+  top: 50%;
+  margin: -20px 0 0 -20px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  border: 8px solid #ffffff;
+}
+
+#fp-nav ul li .fp-tooltip {
+  position: absolute;
+  top: -2px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'catorze27_style_1semibold';
+  white-space: nowrap;
+  max-width: 220px;
+  overflow: hidden;
+  display: block;
+  opacity: 0;
+  width: 0;
+  cursor: pointer;
+  background-color: #6cc209;
+  padding: 12px;
+  border-radius: 24px;
+  margin-right: -35px;
+  padding-right: 40px;
+  padding-left: 15px;
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span,
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span {
+  height: 12px;
+  width: 12px;
+  margin: -8px 0 0 -8px;
+  border-radius: 100%;
+}
+
+/* FORM */
+form {
+  text-align: center;
+  padding: 40px;
+  font-size: 25px;
+  color: #0d291e;
+  background: url('https://image.ibb.co/gJbAsw/tree.jpg') 0 0 no-repeat;
+}
+
+form p {
+  line-height: 1.1;
+}
+
+/*form*/
+
+form label {
+  width: 100%;
+  margin-top: 50px;
+}
+
+form input {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  padding: 10px;
+}
+
+form .special-button {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.popup-close {
+  width: 50px;
+  height: 50px;
+  background: url('https://image.ibb.co/mG8C5G/popup_close.png') 0 0 no-repeat;
+  position: absolute;
+  top: 6%;
+  z-index: 100;
+}
+
+/* POPUP */
+.b-popup {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  z-index: 150;
+}
+
+.b-popup .b-popup-content {
+  margin: 40px auto 0px auto;
+  width: 500px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 10px #000;
+  z-index: 200;
+}
+
+/* fullpage gallery slider */
+#slide-window {
+  position: relative;
+  width: 100%;
+  max-height: 1080px;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+}
+
+#slidesQ {
+  background-color: black;
+  height: 100%;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+
+  transition: all 0.66s ease;
+  -webkit-transition: all 0.66s ease;
+  z-index: 95;
+}
+
+.slideQ {
+
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 100%;
+  background: black;
+  text-align: center;
+  line-height: 300px;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  z-index: 95;
+}
+
+.slideQ img {
+  display: inline-block;
+  width: auto;
+  height: 100%;
+}
+
+.alive {
+  visibility: visible;
+}
+
+.navQ {
+  position: absolute;
+  z-index: 96;
+  top: 50%;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.7;
+  transition: all 0.66s ease;
+  -webkit-transition: all 0.66s ease;
+}
+
+.nav:hover {
+  opacity: 1.0;
+}
+
+#left {
+  left: 3%;
+  z-index: 96;
+  background-color: #6cc209;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.66s ease;
+  -webkit-transition: all 0.66s ease;
+
+}
+
+#right {
+  right: 10%;
+  z-index: 200;
+  background-color: #6cc209;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.66s ease;
+  -webkit-transition: all 0.66s ease;
+}
+
+#right .arrow {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-top: none;
+  border-left: none;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(-45deg);
+}
+
+.navQ:hover {
+  opacity: 1;
+  transition: all 0.66s ease;
+  -webkit-transition: all 0.66s ease;
+}
+
+#left .arrow {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-top: none;
+  border-left: none;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(135deg);
+}
+
+#credit {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  color: #eaeaea;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+

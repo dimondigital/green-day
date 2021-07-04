@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'catorze27_style_1semibold';
+  src: url('../assets/fonts/catorze27style1-semibold-webfont.eot');
+  src: url('../assets/fonts/catorze27style1-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/catorze27style1-semibold-webfont.woff2') format('woff2'),
+  url('../assets/fonts/catorze27style1-semibold-webfont.woff') format('woff'),
+  url('../assets/fonts/catorze27style1-semibold-webfont.ttf') format('truetype'),
+  url('../assets/fonts/catorze27style1-semibold-webfont.svg#catorze27_style_1semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
